@@ -1,0 +1,138 @@
+/* MAIN WHAT PART  */
+
+.main-what {
+  padding: 66px 0;
+}
+
+.main-what-titles {
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+.main-what-text {
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 84px;
+}
+
+.main-what-list {
+  list-style-type: none;
+  height: 485px;
+  padding-bottom: 83px;
+  margin-bottom: 48px;
+}
+
+.main-what-item {
+  width: 276px;
+  height: 432px;
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.17) 100%);
+  border: 3px solid rgba(50, 52, 101, 0.5);
+  border-radius: 20px;
+  padding: 12px;
+  transition: all 0.4s linear;
+}
+
+.main-what-item:hover {
+  height: 485px;
+  transition: all 0.4s linear;
+}
+
+.main-what-img {
+  background: rgba(30, 32, 67, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.main-what-section {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #3BF5BD;
+  margin-bottom: 8px;
+}
+
+.main-what-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 12px;
+  text-transform: capitalize;
+}
+
+.main-what-desc {
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+  padding-bottom: 20px;
+  border-bottom: 1px solid #292B56;
+  margin-bottom: 19px;
+}
+
+.main-what-peoples {
+  margin-bottom: 28px;
+}
+
+.main-what-people {
+  margin-left: 30px;
+}
+
+.main-what-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2px;
+}
+
+.main-what-admin {
+  font-size: 12px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 8px;
+}
+
+.main-what-btn {
+  opacity: 0;
+  background: #F5443B;
+  border-radius: 6px;
+  padding: 12px 32px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 37px;
+  transition: all 0.4s linear 0.5s;
+}
+
+.main-what-item:hover .main-what-btn {
+  opacity: 1;
+}
+
+.main-what-link {
+  position: relative;
+  left: 40%;
+  background: none;
+  border: 1px solid #F5443B;
+  border-radius: 6px;
+  padding: 16px 32px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F5443B;
+  text-align: center;
+}
+.main-what-link:hover {
+  background-color: #f5443b;
+  color: #fff;
+}
+
+/* MAIN WHAT PART END  */

@@ -1,0 +1,96 @@
+.site-header {
+  background-color: #171836;
+}
+
+.header-main {
+  padding: 20px 0px;
+}
+
+.header-logo {
+  width: 82px;
+  height: 39px;
+}
+
+.header-nav {
+  margin-left: 148px;
+}
+
+.header-nav-list, .header-lang-list {
+  list-style-type: none;
+}
+
+.header-nav-item {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-transform: capitalize;
+  margin-right: 44px;
+}
+.header-nav-item:nth-child(4) {
+  margin-right: 0;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.activ {
+  color: #fff;
+}
+.header-login-box {
+  margin-left: 405px;
+}
+
+.header-lang {
+  position: relative;
+  margin-right: 31px;
+}
+
+.header-lang-list {
+  position: absolute;
+  display: none;
+  padding: 10px 20px;
+}
+
+.header-lang-item {
+  padding: 10px 0px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.header-lang-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #d1d1d7;
+}
+
+.header-lang:hover .header-lang-list {
+  display: block;
+}
+
+.bx-globe {
+  position: relative;
+  top: 5px;
+  color: #d1d1d7;
+  font-size: 24px;
+}
+
+.bxs-down-arrow {
+  font-size: 6px;
+  color: #d1d1d7;
+}
+
+.header-login-btn {
+  background-color: #f5443b;
+  border-radius: 6px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  padding: 12px 32px;
+}
+
+/* SITE HERADER PART END */

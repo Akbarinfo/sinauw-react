@@ -1,0 +1,128 @@
+/* MAIN COURSE PART */
+
+.main-course {
+  padding-top: 85px;
+  padding-bottom: 115px;
+}
+
+.main-course-list {
+  position: relative;
+  list-style-type: none;
+}
+
+.main-course-item {
+  width: 372px;
+  height: 515px;
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.31) 100%);
+  border: 3px solid rgba(50, 52, 101, 0.5);
+  border-radius: 20px;
+  padding: 36px;
+}
+.main-course-item:nth-child(3)::before {
+  content: '';
+  width: 97px;
+  height: 97px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  background: url('../../imgs/popular-bacround.png');
+  background-repeat: no-repeat;
+}
+
+.main-course-icon {
+  width: 56px;
+  height: 56px;
+  background-image: url('../../imgs/icon-stars.png');
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+.express {
+  background-image: url('../../imgs/key-back.png');
+}
+
+.prem {
+  background-image: url('../../imgs/crown-back.png');
+}
+
+.main-course-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 30px;
+
+}
+
+.main-course-text {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 30px;
+  margin-bottom: 29px;
+}
+
+.main-course-dollor {
+  position: relative;
+  bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  color: #F5453D;
+}
+
+.main-course-prsing {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 150%;
+  color: #F5453D;
+}
+
+.main-course-list2 {
+  list-style-type: none;
+  border-top: 1.5px solid #272953;
+  padding-top: 29px;
+}
+
+.main-course-item2 {
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 16px;
+}
+
+.main-course-item2::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #9799CE;
+  margin-right: 12px;
+}
+
+.main-course-btn {
+  position: absolute;
+  bottom: 36px;
+  background: none;
+  border: 1px solid #F5443B;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F5443B;
+  padding: 16px 75px;
+  opacity: 0.5;
+}
+.main-course-btn:hover {
+  border: 1px solid #F5443B;
+  opacity: 1;
+}
+.main-course-btn:active {
+  opacity: 1;
+  background-color: #F5443B;
+  color: #fff;
+}
+
+/* MAIN COURSE PART END */

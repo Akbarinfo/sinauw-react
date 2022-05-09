@@ -1,0 +1,47 @@
+/* MAIN APPS PART  */
+
+.main-apps {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.main-apps-box {
+  position: relative;
+  background: linear-gradient(102.01deg, #23265C 1.96%, #352A56 101.68%);
+  border-radius: 40px;
+  padding-left: 101px;
+  padding-bottom: 3px;
+}
+
+.main-apps-main {
+  width: 451px;
+  padding: 85px 0px;
+
+}
+
+.main-apps-title {
+  font-weight: 600;
+  font-size: 47.2727px;
+  line-height: 160%;
+  color: #fff;
+  opacity: 0.7;
+  margin-bottom: 12px;
+}
+
+.main-apps-text {
+  font-size: 18px;
+  line-height: 180%;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 32px;
+}
+
+.main-apps-icon {
+  margin-right: 25px;
+}
+
+.main-apps-img {
+  position: absolute;
+  top: 40px;
+  right: 105px;
+}
+/* MAIN APPS PART END */
